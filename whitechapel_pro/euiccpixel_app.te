@@ -12,6 +12,7 @@ allow euiccpixel_app sysfs_st33spi:file rw_file_perms;
 set_prop(euiccpixel_app, vendor_secure_element_prop)
 set_prop(euiccpixel_app, vendor_modem_prop)
 get_prop(euiccpixel_app, dck_prop)
+get_prop(euiccpixel_app, build_prop)
 
 userdebug_or_eng(`
     net_domain(euiccpixel_app)

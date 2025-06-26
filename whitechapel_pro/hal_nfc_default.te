@@ -15,3 +15,6 @@ allow hal_nfc_default uwb_data_vendor:file r_file_perms;
 get_prop(hal_nfc_default, vendor_uwb_calibration_prop)
 get_prop(hal_nfc_default, vendor_uwb_calibration_country_code)
 
+# Obtained BP2A from stock factory image vendor_sepolicy.cil
+allow hal_nfc_default vendor_nfc_vendor_data_file:dir rw_dir_perms;
+allow hal_nfc_default vendor_nfc_vendor_data_file:file rw_file_perms;

@@ -209,6 +209,8 @@
 /dev/battery_history                                                        u:object_r:battery_history_device:s0
 /data/vendor/powerstats(/.*)?                                               u:object_r:powerstats_vendor_data_file:s0
 /data/vendor/fingerprint(/.*)?                                              u:object_r:fingerprint_vendor_data_file:s0
+# Obtained from BP2A stock factory image vendor_sepolicy.cil
+/data/vendor/nfc(/.*)?                                                      u:object_r:vendor_nfc_vendor_data_file:s0
 
 # Persist
 /mnt/vendor/persist/battery(/.*)?                                           u:object_r:persist_battery_file:s0

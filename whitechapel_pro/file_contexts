@@ -191,6 +191,8 @@
 /dev/block/platform/14700000\.ufs/by-name/vendor_boot_[ab]                  u:object_r:custom_ab_block_device:s0
 /dev/block/platform/14700000\.ufs/by-name/vendor_kernel_boot_[ab]           u:object_r:custom_ab_block_device:s0
 /dev/block/platform/14700000\.ufs/by-name/fips                              u:object_r:fips_block_device:s0
+# Obtained from BP2A stock factory image vendor_sepolicy.cil
+/dev/fth_fd                                                                 u:object_r:fingerprint_device:s0
 
 # Data
 /data/vendor/chre(/.*)?                                                     u:object_r:chre_data_file:s0

@@ -1,2 +1,5 @@
 allow nfc proc_vendor_sched:dir r_dir_perms;
 allow nfc proc_vendor_sched:file w_file_perms;
+
+# Obtained from BP2A stock factory image vendor_sepolicy.cil
+allow nfc vendor_nfc_vendor_data_file:dir search;

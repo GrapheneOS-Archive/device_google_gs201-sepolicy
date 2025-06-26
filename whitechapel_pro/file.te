@@ -15,6 +15,8 @@ userdebug_or_eng(`
   typeattribute vendor_gps_file mlstrustedobject;
   typeattribute vendor_slog_file mlstrustedobject;
 ')
+# Obtained from BP2A stock factory image vendor_sepolicy.cil
+type vendor_nfc_vendor_data_file, file_type, data_file_type;
 
 # Exynos Firmware
 type vendor_fw_file, vendor_file_type, file_type;

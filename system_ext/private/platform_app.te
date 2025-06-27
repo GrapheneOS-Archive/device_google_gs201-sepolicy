@@ -1,2 +1,5 @@
 # allow systemui access to fingerprint
 hal_client_domain(platform_app, hal_fingerprint)
+
+# BP2A change from panther stock image
+set_prop(platform_app, vendor_sysuig_prop)
